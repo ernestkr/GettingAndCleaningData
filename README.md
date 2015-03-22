@@ -1,6 +1,6 @@
-# Getting And Cleaning Data
-## (Course Project)
+# Getting And Cleaning Data (Course Project)
 
+## General info:
 * The script (run_analysis.R) reads the data set inside the folder "test" and "train", and combine them. 
 * Then, all the variables (columns) that are relevant to the measurements on the mean and standard deviation for each measurement are extracted. 
 * The script will then append two columns describing the identity of the volunteer from whom the measurements were taken as well as the description on the activity being performed during the measurement.
