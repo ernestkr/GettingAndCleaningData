@@ -1,4 +1,4 @@
-# Getting And Cleaning Data (Course Project Assignment)
+# Getting And Cleaning Data (Course Project Programming Assignment)
 
 ## General info:
 * The script (run_analysis.R) reads the data set inside the folder "test" and "train", and combine them. 
