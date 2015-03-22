@@ -75,7 +75,7 @@ print("Processing the average of each variable for final data set generation. Pl
 ## Maintain the running index to keep track of the number of entries written so far
 RunningIdx = 1
 ## Populate the data frame with the final result, grouped by the user and the activity type
-for (userIdx in unique(ResultDF$Volunteer_Index)){
+for (userIdx in sort(unique(ResultDF$Volunteer_Index))){
   for (ActType in ActivityLabel[,2]){
     FinalDF[RunningIdx, 1] = userIdx
     FinalDF[RunningIdx, 2] = ActType
