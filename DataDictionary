@@ -1,0 +1,212 @@
+Data Dictionary – TidyData.txt
+(Created as part of the course project for Getting and Cleaning Data)
+
+Volunteer_Index
+	The index of the volunteer from whom the measurements were taken
+		1...30 (Integer value from 1 to 30, representing the user index)
+Activity
+	The type of activity performed when the measurements were taken
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING
+		STANDING
+		LAYING
+AverageOf-tBodyAcc-mean()-X
+	Average of the mean of body acceleration in X direction measured in time domain
+		(Real number)
+AverageOf-tBodyAcc-mean()-Y
+	Average of the mean of body acceleration in Y direction measured in time domain
+		(Real number) 
+AverageOf-tBodyAcc-mean()-Z
+	Average of the mean of body acceleration in Z direction measured in time domain
+		(Real number) 
+AverageOf-tBodyAcc-std()-X 
+	Average of the standard deviation of body acceleration in X direction measured in time domain
+		(Real number)
+AverageOf-tBodyAcc-std()-Y 
+	Average of the standard deviation of body acceleration in Y direction measured in time domain
+		(Real number)
+AverageOf-tBodyAcc-std()-Z 
+	Average of the standard deviation of body acceleration in Z direction measured in time domain
+		(Real number)
+AverageOf-tGravityAcc-mean()-X
+	Average of the mean of Gravitational acceleration in X direction measured in time domain
+		(Real number) 
+AverageOf-tGravityAcc-mean()-Y 
+	Average of the mean of Gravitational acceleration in Y direction measured in time domain
+		(Real number)
+AverageOf-tGravityAcc-mean()-Z
+	Average of the mean of Gravitational acceleration in Z direction measured in time domain
+		(Real number) 
+AverageOf-tGravityAcc-std()-X 
+	Average of the standard deviation of Gravitational acceleration in X measured in time domain
+		(Real number)
+AverageOf-tGravityAcc-std()-Y 
+	Average of the standard deviation of Gravitational acceleration in Y measured in time domain
+		(Real number)
+AverageOf-tGravityAcc-std()-Z 
+	Average of the standard deviation of Gravitational acceleration in Z measured in time domain
+		(Real number)
+AverageOf-tBodyAccJerk-mean()-X
+	Average of the mean of body acceleration jerk in X direction measured in time domain
+		(Real number) 
+AverageOf-tBodyAccJerk-mean()-Y
+	Average of the mean of body acceleration jerk in Y direction measured in time domain
+		(Real number) 
+AverageOf-tBodyAccJerk-mean()-Z
+	Average of the mean of body acceleration jerk in Z direction measured in time domain
+		(Real number) 
+AverageOf-tBodyAccJerk-std()-X 
+	Average of the standard deviation of body acceleration jerk in X measured in time domain
+		(Real number)
+AverageOf-tBodyAccJerk-std()-Y
+	Average of the standard deviation of body acceleration jerk in Y measured in time domain
+		(Real number) 
+AverageOf-tBodyAccJerk-std()-Z 
+	Average of the standard deviation of body acceleration jerk in Z measured in time domain
+		(Real number)
+AverageOf-tBodyGyro-mean()-X 
+	Average of the mean of body gyroscope readings in X measured in time domain
+		(Real number)
+AverageOf-tBodyGyro-mean()-Y
+	Average of the mean of body gyroscope readings in Y measured in time domain
+		(Real number) 
+AverageOf-tBodyGyro-mean()-Z
+	Average of the mean of body gyroscope readings in Z measured in time domain
+		(Real number) 
+AverageOf-tBodyGyro-std()-X 
+	Average of the standard deviation of body gyroscope readings in X measured in time domain
+		(Real number)
+AverageOf-tBodyGyro-std()-Y 
+	Average of the standard deviation of body gyroscope readings in Y measured in time domain
+		(Real number)
+AverageOf-tBodyGyro-std()-Z 
+	Average of the standard deviation of body gyroscope readings in Z measured in time domain
+		(Real number)
+AverageOf-tBodyGyroJerk-mean()-X
+	Average of the mean of body gyroscope jerk readings in X measured in time domain
+		(Real number) 
+AverageOf-tBodyGyroJerk-mean()-Y
+	Average of the mean of body gyroscope jerk readings in Y measured in time domain
+		(Real number) 
+AverageOf-tBodyGyroJerk-mean()-Z
+	Average of the mean of body gyroscope jerk readings in Z measured in time domain
+		(Real number) 
+AverageOf-tBodyGyroJerk-std()-X
+	Average of the standard deviation of body gyroscope jerk in X measured in time domain
+		(Real number) 
+AverageOf-tBodyGyroJerk-std()-Y
+	Average of the standard deviation of body gyroscope jerk in Y measured in time domain
+		(Real number) 
+AverageOf-tBodyGyroJerk-std()-Z 
+	Average of the standard deviation of body gyroscope jerk in Z measured in time domain
+		(Real number)
+AverageOf-tBodyAccMag-mean()
+	Average of the mean of body acceleration magnitude measured in time domain
+		(Real number) 
+AverageOf-tBodyAccMag-std() 
+	Average of the standard deviation of body acceleration magnitude measured in time domain
+		(Real number)
+AverageOf-tGravityAccMag-mean() 
+	Average of the mean of gravity acceleration magnitude measured in time domain
+		(Real number)
+AverageOf-tGravityAccMag-std() 
+	Average of the standard deviation of body acceleration magnitude measured in time domain
+		(Real number)
+AverageOf-tBodyAccJerkMag-mean()
+	Average of the mean of body acceleration jerk magnitude measured in time
+		(Real number) 
+AverageOf-tBodyAccJerkMag-std() 
+	Average of the standard deviation of body acceleration jerk magnitude in time domain
+		(Real number)
+AverageOf-tBodyGyroMag-mean()
+	Average of the mean of body gyroscope magnitude measured in time domain
+		(Real number) 
+AverageOf-tBodyGyroMag-std() 
+	Average of the standard deviation of body gyroscope magnitude measured in time domain
+		(Real number)
+AverageOf-tBodyGyroJerkMag-mean()
+	Average of the mean of body gyroscope jerk magnitude measured in time domain
+		(Real number) 
+AverageOf-tBodyGyroJerkMag-std()
+	Average of the standard deviation of body gyroscope jerk magnitude measured in time domain
+		(Real number) 
+AverageOf-fBodyAcc-mean()-X 
+	Average of the mean of body acceleration in X direction measured in frequency domain
+		(Real number)
+AverageOf-fBodyAcc-mean()-Y 
+	Average of the mean of body acceleration in Y direction measured in frequency domain
+		(Real number)
+AverageOf-fBodyAcc-mean()-Z 
+	Average of the mean of body acceleration in Z direction measured in frequency domain
+		(Real number)
+AverageOf-fBodyAcc-std()-X 
+	Average of the standard deviation of body acceleration in X measured in frequency domain
+		(Real number)
+AverageOf-fBodyAcc-std()-Y 
+	Average of the standard deviation of body acceleration in Y measured in frequency domain
+		(Real number)
+AverageOf-fBodyAcc-std()-Z 
+	Average of the standard deviation of body acceleration in Z measured in frequency domain
+		(Real number)
+AverageOf-fBodyAccJerk-mean()-X
+	Average of the mean of body acceleration jerk in X measured in frequency domain
+		(Real number) 
+AverageOf-fBodyAccJerk-mean()-Y
+	Average of the mean of body acceleration jerk in Y measured in frequency domain
+		(Real number) 
+AverageOf-fBodyAccJerk-mean()-Z
+	Average of the mean of body acceleration jerk in Z measured in frequency domain
+		(Real number) 
+AverageOf-fBodyAccJerk-std()-X 
+	Average of the standard deviation of body acceleration jerk in X measured in frequency domain
+		(Real number)
+AverageOf-fBodyAccJerk-std()-Y
+	Average of the standard deviation of body acceleration jerk in Y measured in frequency domain
+		(Real number) 
+AverageOf-fBodyAccJerk-std()-Z
+	Average of the standard deviation of body acceleration jerk in Z measured in frequency domain
+		(Real number) 
+AverageOf-fBodyGyro-mean()-X 
+	Average of the mean of body gyroscope reading in X measured in frequency domain
+		(Real number)
+AverageOf-fBodyGyro-mean()-Y 
+	Average of the mean of body gyroscope reading in Y measured in frequency domain
+		(Real number)
+AverageOf-fBodyGyro-mean()-Z 
+	Average of the mean of body gyroscope reading in Z measured in frequency domain
+		(Real number)
+AverageOf-fBodyGyro-std()-X 
+	Average of the standard deviation of body gyroscope reading in X in frequency domain
+		(Real number)
+AverageOf-fBodyGyro-std()-Y 
+	Average of the standard deviation of body gyroscope reading in Y in frequency domain
+		(Real number)
+AverageOf-fBodyGyro-std()-Z 
+	Average of the standard deviation of body gyroscope reading in Z in frequency domain
+		(Real number)
+AverageOf-fBodyAccMag-mean()
+	Average of the mean of body acceleration magnitude measured in frequency domain
+		(Real number) 
+AverageOf-fBodyAccMag-std()
+	Average of the standard deviation of body acceleration magnitude in frequency domain
+		(Real number) 
+AverageOf-fBodyBodyAccJerkMag-mean()
+	Average of the mean of body acceleration jerk magnitude measured in frequency domain
+		(Real number) 
+AverageOf-fBodyBodyAccJerkMag-std()
+	Average of the standard deviation of body acceleration jerk magnitude in frequency domain
+		(Real number) 
+AverageOf-fBodyBodyGyroMag-mean()
+	Average of the mean of body gyroscope magnitude reading in frequency domain
+		(Real number) 
+AverageOf-fBodyBodyGyroMag-std()
+	Average of the standard deviation of body gyroscope magnitude reading in frequency domain
+		(Real number) 
+AverageOf-fBodyBodyGyroJerkMag-mean()
+	Average of the mean of body gyroscope jerk magnitude reading in frequency domain
+		(Real number) 
+AverageOf-fBodyBodyGyroJerkMag-std()
+	Average of the standard deviation of body gyroscope jerk magnitude in frequency domain
+		(Real number)
