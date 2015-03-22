@@ -8,6 +8,6 @@
 
 ## Usage:
 * Place the script run_analysis.R into the directory contining the data to be processed (UCI HAR Dataset).
-* Make sure that there exist two subfolders named "test" and "train", and contain the relevant files.
+* Make sure that there exist two subfolders named "test" and "train", and contain the relevant necessary files.
 * Run the script to generate "TidyData.txt" containing the desired output.
 * Note: the script may take some time to execute (approximately 8 minutes), depending on the processor speed.
